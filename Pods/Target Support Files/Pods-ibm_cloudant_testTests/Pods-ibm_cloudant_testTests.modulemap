@@ -1,0 +1,6 @@
+framework module Pods_ibm_cloudant_testTests {
+  umbrella header "Pods-ibm_cloudant_testTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

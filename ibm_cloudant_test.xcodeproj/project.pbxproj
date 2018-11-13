@@ -7,8 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46C22A2E1479BCB6E04E7358 /* Pods_ibm_cloudant_testUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D050A9CE3D2482B93119342 /* Pods_ibm_cloudant_testUITests.framework */; };
+		5D3E6834D2493176CD1F8285 /* Pods_ibm_cloudant_testTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A96373262103375001A896 /* Pods_ibm_cloudant_testTests.framework */; };
+		DD6EA8316F9562B9363F6075 /* Pods_ibm_cloudant_test.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3747F76FFD4B975339E02538 /* Pods_ibm_cloudant_test.framework */; };
+		F42E4FC1219B272200DBF66F /* ReadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42E4FC0219B272200DBF66F /* ReadViewController.swift */; };
 		F450B12A2195F53A00BBC402 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450B1292195F53A00BBC402 /* AppDelegate.swift */; };
-		F450B12C2195F53A00BBC402 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450B12B2195F53A00BBC402 /* FirstViewController.swift */; };
 		F450B12E2195F53A00BBC402 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F450B12D2195F53A00BBC402 /* SecondViewController.swift */; };
 		F450B1312195F53A00BBC402 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F450B12F2195F53A00BBC402 /* Main.storyboard */; };
 		F450B1332195F53C00BBC402 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F450B1322195F53C00BBC402 /* Assets.xcassets */; };
@@ -35,9 +38,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3747F76FFD4B975339E02538 /* Pods_ibm_cloudant_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibm_cloudant_test.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1A2DC5F9F9474D6991A148 /* Pods-ibm_cloudant_testTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_testTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_testTests/Pods-ibm_cloudant_testTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6413357787B1C61021DB43FB /* Pods-ibm_cloudant_testTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_testTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_testTests/Pods-ibm_cloudant_testTests.release.xcconfig"; sourceTree = "<group>"; };
+		6F6E603C1B443A0B2DA45F01 /* Pods-ibm_cloudant_testUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_testUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_testUITests/Pods-ibm_cloudant_testUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8A87CAAB334201C64F620170 /* Pods-ibm_cloudant_test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_test.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_test/Pods-ibm_cloudant_test.release.xcconfig"; sourceTree = "<group>"; };
+		9D050A9CE3D2482B93119342 /* Pods_ibm_cloudant_testUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibm_cloudant_testUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3A96373262103375001A896 /* Pods_ibm_cloudant_testTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ibm_cloudant_testTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1C3720E46E24D5F2DF2FB51 /* Pods-ibm_cloudant_test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_test/Pods-ibm_cloudant_test.debug.xcconfig"; sourceTree = "<group>"; };
+		F42E4FC0219B272200DBF66F /* ReadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadViewController.swift; sourceTree = "<group>"; };
 		F450B1262195F53A00BBC402 /* ibm_cloudant_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ibm_cloudant_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F450B1292195F53A00BBC402 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F450B12B2195F53A00BBC402 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		F450B12D2195F53A00BBC402 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		F450B1302195F53A00BBC402 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F450B1322195F53C00BBC402 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,7 @@
 		F450B1472195F53D00BBC402 /* ibm_cloudant_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ibm_cloudant_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F450B14B2195F53D00BBC402 /* ibm_cloudant_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ibm_cloudant_testUITests.swift; sourceTree = "<group>"; };
 		F450B14D2195F53D00BBC402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E39B1549F5BDACA9BCFDBE /* Pods-ibm_cloudant_testUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ibm_cloudant_testUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ibm_cloudant_testUITests/Pods-ibm_cloudant_testUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD6EA8316F9562B9363F6075 /* Pods_ibm_cloudant_test.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D3E6834D2493176CD1F8285 /* Pods_ibm_cloudant_testTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C22A2E1479BCB6E04E7358 /* Pods_ibm_cloudant_testUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B83D7E2387FE87A449EDAED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3747F76FFD4B975339E02538 /* Pods_ibm_cloudant_test.framework */,
+				B3A96373262103375001A896 /* Pods_ibm_cloudant_testTests.framework */,
+				9D050A9CE3D2482B93119342 /* Pods_ibm_cloudant_testUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA517B074C2F061F4E9AA2FD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C1C3720E46E24D5F2DF2FB51 /* Pods-ibm_cloudant_test.debug.xcconfig */,
+				8A87CAAB334201C64F620170 /* Pods-ibm_cloudant_test.release.xcconfig */,
+				3D1A2DC5F9F9474D6991A148 /* Pods-ibm_cloudant_testTests.debug.xcconfig */,
+				6413357787B1C61021DB43FB /* Pods-ibm_cloudant_testTests.release.xcconfig */,
+				6F6E603C1B443A0B2DA45F01 /* Pods-ibm_cloudant_testUITests.debug.xcconfig */,
+				F9E39B1549F5BDACA9BCFDBE /* Pods-ibm_cloudant_testUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F450B11D2195F53A00BBC402 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				F450B13F2195F53D00BBC402 /* ibm_cloudant_testTests */,
 				F450B14A2195F53D00BBC402 /* ibm_cloudant_testUITests */,
 				F450B1272195F53A00BBC402 /* Products */,
+				BA517B074C2F061F4E9AA2FD /* Pods */,
+				6B83D7E2387FE87A449EDAED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,12 +140,12 @@
 			isa = PBXGroup;
 			children = (
 				F450B1292195F53A00BBC402 /* AppDelegate.swift */,
-				F450B12B2195F53A00BBC402 /* FirstViewController.swift */,
 				F450B12D2195F53A00BBC402 /* SecondViewController.swift */,
 				F450B12F2195F53A00BBC402 /* Main.storyboard */,
 				F450B1322195F53C00BBC402 /* Assets.xcassets */,
 				F450B1342195F53C00BBC402 /* LaunchScreen.storyboard */,
 				F450B1372195F53C00BBC402 /* Info.plist */,
+				F42E4FC0219B272200DBF66F /* ReadViewController.swift */,
 			);
 			path = ibm_cloudant_test;
 			sourceTree = "<group>";
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F450B1502195F53D00BBC402 /* Build configuration list for PBXNativeTarget "ibm_cloudant_test" */;
 			buildPhases = (
+				22EB3DC46A015EFA4880CB4A /* [CP] Check Pods Manifest.lock */,
 				F450B1222195F53A00BBC402 /* Sources */,
 				F450B1232195F53A00BBC402 /* Frameworks */,
 				F450B1242195F53A00BBC402 /* Resources */,
+				C180DBE14DB9EA685D091A79 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F450B1532195F53D00BBC402 /* Build configuration list for PBXNativeTarget "ibm_cloudant_testTests" */;
 			buildPhases = (
+				86601FBCA068CE7569BE6794 /* [CP] Check Pods Manifest.lock */,
 				F450B1382195F53D00BBC402 /* Sources */,
 				F450B1392195F53D00BBC402 /* Frameworks */,
 				F450B13A2195F53D00BBC402 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F450B1562195F53D00BBC402 /* Build configuration list for PBXNativeTarget "ibm_cloudant_testUITests" */;
 			buildPhases = (
+				CE848C266564CAC064329EA4 /* [CP] Check Pods Manifest.lock */,
 				F450B1432195F53D00BBC402 /* Sources */,
 				F450B1442195F53D00BBC402 /* Frameworks */,
 				F450B1452195F53D00BBC402 /* Resources */,
@@ -254,14 +298,105 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22EB3DC46A015EFA4880CB4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ibm_cloudant_test-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86601FBCA068CE7569BE6794 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ibm_cloudant_testTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C180DBE14DB9EA685D091A79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ibm_cloudant_test/Pods-ibm_cloudant_test-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftCloudant/SwiftCloudant.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftCloudant.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ibm_cloudant_test/Pods-ibm_cloudant_test-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE848C266564CAC064329EA4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ibm_cloudant_testUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F450B1222195F53A00BBC402 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F450B12E2195F53A00BBC402 /* SecondViewController.swift in Sources */,
+				F42E4FC1219B272200DBF66F /* ReadViewController.swift in Sources */,
 				F450B12A2195F53A00BBC402 /* AppDelegate.swift in Sources */,
-				F450B12C2195F53A00BBC402 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +569,7 @@
 		};
 		F450B1512195F53D00BBC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1C3720E46E24D5F2DF2FB51 /* Pods-ibm_cloudant_test.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +588,7 @@
 		};
 		F450B1522195F53D00BBC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A87CAAB334201C64F620170 /* Pods-ibm_cloudant_test.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +607,7 @@
 		};
 		F450B1542195F53D00BBC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D1A2DC5F9F9474D6991A148 /* Pods-ibm_cloudant_testTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +629,7 @@
 		};
 		F450B1552195F53D00BBC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6413357787B1C61021DB43FB /* Pods-ibm_cloudant_testTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +651,7 @@
 		};
 		F450B1572195F53D00BBC402 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F6E603C1B443A0B2DA45F01 /* Pods-ibm_cloudant_testUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +672,7 @@
 		};
 		F450B1582195F53D00BBC402 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E39B1549F5BDACA9BCFDBE /* Pods-ibm_cloudant_testUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
